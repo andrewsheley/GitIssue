@@ -31,6 +31,7 @@ namespace TestGit.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["message"] = "This is from the controller.";
             return View();
         }
 
